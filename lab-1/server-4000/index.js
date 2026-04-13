@@ -14,7 +14,6 @@ app.get("/messages", (req, res) => {
   });
 });
 
-// ОЦЕ ТРЕБА ДОДАТИ
 app.get("/support.js", (req, res) => {
   res.sendFile(path.join(__dirname, "support.js"));
 });
