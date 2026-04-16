@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- CSS з CDN -->
+  <link rel="stylesheet" href="http://localhost:7000/theme.css">
+
+  <title>WebMail</title>
+</head>
+
+<body>
+
+  <!-- логотип з CDN -->
+  <img src="http://localhost:7000/logo.png" class="logo-container">
+
+  <!-- username -->
+  <div id="username">John Smith</div>
+
+  <div style="display:flex; gap:20px;">
+    
+    <!-- sidebar -->
+    <div id="sidebar"></div>
+
+    <!-- main area -->
+    <div id="content">Select email</div>
+
+  </div>
+
+  <!-- JS -->
+  <script src="main.js"></script>
+
+  <!-- CDN bridge -->
+  <script src="http://localhost:7000/react-mock.js"></script>
+  <script src="http://localhost:4000/support.js"></script>
+  <script src="http://localhost:5000/weather.js"></script>
+
+</body>
+</html>
