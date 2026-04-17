@@ -1,0 +1,15 @@
+#username {
+  font-weight: bold;
+  color: blue;
+  font-size: 18px;
+}
+
+.logo-container {
+  width: 120px;
+  height: 120px;
+}
+
+.layout {
+  display: flex;
+  gap: 20px;
+}
